@@ -149,7 +149,7 @@ function App2() {
             </p>
             <p className="font-semibold">
               A visit to Canberra is defined as having stayed for at least seven
-              consecutive nights.{" "}
+              consecutive nights.
             </p>
           </div>`,
       options: [
@@ -327,7 +327,7 @@ function App2() {
               Do you have a full-time genuine ACT job offer in your nominated
               occupation? The position must be in Canberra and be available for
               at least six months. The terms of employment must be in accordance
-              with Australian legislation. The employer:{" "}
+              with Australian legislation. The employer:
             </h1>
             <ul className="list-disc font-semibold">
               <li>cannot be trading from a home, online or serviced office.</li>
