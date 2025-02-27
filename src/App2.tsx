@@ -149,7 +149,7 @@ function App2() {
             </p>
             <p className="font-semibold">
               A visit to Canberra is defined as having stayed for at least seven
-              consecutive nights.
+              consecutive nights.{" "}
             </p>
           </div>`,
       options: [
@@ -254,8 +254,8 @@ function App2() {
           labelHTML: `<label htmlFor="Proficient.">Proficient.</label>`,
         },
         {
-          labelHTML: `<label htmlFor="Competent">Competent</label>`,
-          label: "Competent",
+          labelHTML: `<label htmlFor="Competent 1">Competent</label>`,
+          label: "Competent 1",
           value: "0",
           identity: "group-3-member-3",
         },
@@ -297,10 +297,10 @@ function App2() {
           identity: "group-4-member-1",
         },
         {
-          label: "Decent",
+          label: "Competent",
           value: "00",
           identity: "group-4-member-2",
-          labelHTML: `<label htmlFor="Decent">Decent</label>`,
+          labelHTML: `<label htmlFor="Competent">Competent</label>`,
         },
         {
           labelHTML: `<label htmlFor="Not Applicable 2">Not Applicable</label>`,
@@ -327,7 +327,7 @@ function App2() {
               Do you have a full-time genuine ACT job offer in your nominated
               occupation? The position must be in Canberra and be available for
               at least six months. The terms of employment must be in accordance
-              with Australian legislation. The employer:
+              with Australian legislation. The employer:{" "}
             </h1>
             <ul className="list-disc font-semibold">
               <li>cannot be trading from a home, online or serviced office.</li>
@@ -398,11 +398,10 @@ function App2() {
           labelHTML: `<label htmlFor="Five to Eight years employment.">Five to Eight years employment.</label>`,
         },
         {
-          label: "Not Applicable",
-          id: "Not applicable 4",
-          value: "000000",
+          label: "Three to Five years employment.",
+          value: "10",
           identity: "group-6-member-3",
-          labelHTML: `<label htmlFor="Not applicable 4">Not Applicable</label>`,
+          labelHTML: `<label htmlFor="Three to Five years employment.">Three to Five years employment.</label>`,
         },
       ],
       selectedOption: selectedOption6,
@@ -505,16 +504,18 @@ function App2() {
           labelHTML: `<label htmlFor="Master’s degree">Master’s degree</label>`,
         },
         {
-          label: "Bachelor’s degree or trade certificate",
+          label:
+            "Bachelor’s degree or trade certificate - at least three years full-time continuous study.",
           value: "10",
           identity: "group-8-member-3",
-          labelHTML: `<label htmlFor="Bachelor’s degree or trade certificate">Bachelor’s degree or trade certificate</label>`,
+          labelHTML: `<label htmlFor="Bachelor’s degree or trade certificate - at least three years full-time continuous study.">Bachelor’s degree or trade certificate - at least three years full-time continuous study.</label>`,
         },
         {
-          label: "Diploma - at least 18 months full-time study",
+          label:
+            "Diploma qualification - at least two years full-time continuous study.",
           value: "5",
           identity: "group-8-member-4",
-          labelHTML: `<label htmlFor="Diploma - at least 18 months full-time study">Diploma - at least 18 months full-time study</label>`,
+          labelHTML: `<label htmlFor="Diploma qualification - at least two years full-time continuous study.">Diploma qualification - at least two years full-time continuous study.</label>`,
         },
         {
           label: "Not Applicable",
@@ -645,7 +646,7 @@ function App2() {
           Have you made a personal cash investment in Canberra to purchase a residential or commercial property (purchase of land only does not meet this criteria)? You must have a Certificate of Title or rates notice to evidence ownership.
             </h1>
             <h1 className="font-bold">
-          Have you made a personal cash investment in Canberra to purchase a residential or commercial property (purchase of land only does not meet this criteria)? You must have a Certificate of Title or rates notice to evidence ownership.
+        Have you owned a business in Canberra for the last six months? You are the majority owner (at least 51%) and the business is profitable.
             </h1>
           </div>
       `,
